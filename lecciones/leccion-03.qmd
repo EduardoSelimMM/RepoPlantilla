@@ -1,5 +1,7 @@
 ---
-title: "Bienvenido"
+title: "Lección 3: Recordatorio de R"
+description: "Tercera lección del curso"
+date: "2026-04-01"
 ---
 
 Acá usamos nuestra sintaxis clásica de RMarkdown/Quarto
