@@ -1,6 +1,10 @@
 ---
 title: "Esta es una plantilla"
+description: "Para que puedas copiar y pegar"
+date: "2026-01-01"
 ---
+
+Borra todo desde esta línea (incluyéndola), pega el contenido de tu propio archivo `.qmd`
 
 Acá usamos nuestra sintaxis clásica de Quarto
 
