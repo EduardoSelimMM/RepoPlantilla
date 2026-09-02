@@ -109,3 +109,15 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 ```
+
+Una vez que exista el documento "publish.yml" se empezará a crear el sitio. Esto tomará unos minutos
+
+Ir a "Actions". Dar click al único workflow y esperar a que termine
+
+Una vez que termine el workflow te mostrará el link de tu sitio web.
+
+Para que lo tengas a la mano todo el tiempo, haz lo siguiente:
+
+Ve a la página principal de tu repositorio (aquí en GitHub). Del lado derecho encontrarás la palabra "About" con una tuerquita de lado derecho.
+
+Marca la casilla de "Use your GitHub Pages website" y "Save changes". Ahora verás la dirección de tu sitio justo debajo de la palabra "About"
