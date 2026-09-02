@@ -144,7 +144,9 @@ Acá usamos nuestra sintaxis clásica de RMarkdown/Quarto
 #| message: false
 library(dplyr)
 library(ggplot2)
+```
 
+```{r}
 head(mtcars)
 ```
 
@@ -182,5 +184,15 @@ summary(iris)
 
 
 ```
+**IMPORTANTE:** Se me hace que acá tendremos que poner una foto porque los acentos inversos se hacen bolas
+
+Ve a la carpeta Lecciones
+
++ Allí encontrarás el archivo "_plantilla.qmd"
+
++ Copia su contenido y pégalo en un nuevo archivo que se llame "mi-leccion-01.qmd"
+
++ Modifica el contenido, copiando y pegando el contenido de tu archivo .qmd
+
 
 
