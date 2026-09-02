@@ -1,11 +1,26 @@
 # Instrucciones
 
-Ir al botón de "Copiar plantilla"
+Ir al botón de "Use this template" -> "Create a new repository"
 
 Llenar los campos
 
 Ir a Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
 
+Modificar el archivo "_quarto.yml"
+
+```
+website:
+  title: "Sitio web"
+```
+Cambiar el `title` por el título que le quieres dar a tu sitio. Por ejemplo: "Sitio web de John Doe"
+
+```
+website:
+  title: "Sitio web de John Dob"
+```
+
+
+Este debe ser el último paso del despliegue por primera vez:
 Crear un documento que se llame
 ".github/workflows/publish.yml"
 
