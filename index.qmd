@@ -1,0 +1,5 @@
+---
+title: "Bienvenido al sitio web"
+---
+
+Este es el sitio web. Navega a **Lecciones** para ver todo el contenido disponible.
