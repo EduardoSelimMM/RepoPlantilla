@@ -1,5 +1,7 @@
 # Instrucciones
 
+## Despliegue por primera vez
+
 Ir al botón de "Use this template" -> "Create a new repository"
 
 Llenar los campos
@@ -121,3 +123,64 @@ Para que lo tengas a la mano todo el tiempo, haz lo siguiente:
 Ve a la página principal de tu repositorio (aquí en GitHub). Del lado derecho encontrarás la palabra "About" con una tuerquita de lado derecho.
 
 Marca la casilla de "Use your GitHub Pages website" y "Save changes". Ahora verás la dirección de tu sitio justo debajo de la palabra "About"
+
+## Agregar lecciones propias
+
+Probablemente tengas algunas lecciones propias en Quarto, además de las que ya están disponibles y también quieras que los estudiantes las revisen
+
+```
+---
+title: "Bienvenido"
+---
+
+Este es mi sitio creado con Quarto, R y GitHub Actions.
+
+Acá usamos nuestra sintaxis clásica de RMarkdown/Quarto
+
+## Un vistazo a los datos
+
+```{r}
+#| echo: false
+#| message: false
+library(dplyr)
+library(ggplot2)
+
+head(mtcars)
+```
+
+## Un gráfico
+
+```{r}
+#| echo: false
+#| warning: false
+ggplot(mtcars, aes(x = wt, y = mpg, color = as.factor(cyl))) +
+  geom_point(size = 3) +
+  labs(
+    title = "Peso del auto vs. rendimiento",
+    x = "Peso (miles de lb)",
+    y = "Millas por galón",
+    color = "Cilindros"
+  ) +
+  theme_minimal()
+```
+
+## Una tabla resumen
+
+```{r}
+#| echo: false
+mtcars |>
+  group_by(cyl) |>
+  summarise(mpg_promedio = mean(mpg)) |>
+  knitr::kable()
+```
+
+Un resumen del famoso dataset "iris"
+
+```{r}
+summary(iris)
+```
+
+
+```
+
+
