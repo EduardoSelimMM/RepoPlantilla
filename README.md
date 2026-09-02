@@ -16,7 +16,7 @@ Cambiar el `title` por el título que le quieres dar a tu sitio. Por ejemplo: "S
 
 ```
 website:
-  title: "Sitio web de John Dob"
+  title: "Sitio web de John Doe"
 ```
 
 Modificar el archivo ".index.qmd"
@@ -37,6 +37,7 @@ title: "Prepársense para aprender"
 ---
 
 Este es el sitio web del curso. Da click al botón **Lecciones** en la barra superior para ver todo el contenido disponible.
+
 ```
 
 En la carpeta "lecciones" se encuentra cada uno de los notebooks de Quarto con el contenido individual. Por el momento no es necesario modificarlo
