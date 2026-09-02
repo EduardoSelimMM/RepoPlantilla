@@ -4,7 +4,7 @@ Ir al botón de "Copiar plantilla"
 
 Llenar los campos
 
-Ir a Settings -> Pages -> Source -> GitHub Actions
+Ir a Settings -> Pages -> Build and deployment -> Source -> GitHub Actions
 
 Crear un documento que se llame
 ".github/workflows/publish.yml"
