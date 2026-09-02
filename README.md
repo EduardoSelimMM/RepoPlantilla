@@ -19,6 +19,27 @@ website:
   title: "Sitio web de John Dob"
 ```
 
+Modificar el archivo ".index.qmd"
+
+```
+---
+title: "Bienvenido al sitio web"
+---
+
+Este es el sitio web. Navega a **Lecciones** para ver todo el contenido disponible.
+```
+
+Acá se llena con un mensaje de bienvenida e info que quieras compartir
+
+```
+---
+title: "Prepársense para aprender"
+---
+
+Este es el sitio web del curso. Da click al botón **Lecciones** en la barra superior para ver todo el contenido disponible.
+```
+
+En la carpeta "lecciones" se encuentra cada uno de los notebooks de Quarto con el contenido individual. Por el momento no es necesario modificarlo
 
 Este debe ser el último paso del despliegue por primera vez:
 Crear un documento que se llame
