@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sitio web"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Lecciones"
+        href: lecciones.qmd
+
+format:
+  html:
+    theme: minty
+    toc: true
+    lang: es
